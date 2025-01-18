@@ -1,0 +1,35 @@
+#String Concatenation
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+#To add a space between them, add a " ":
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+#Ain't the right the way to use the + operator
+age = 36
+txt = "My name is John, I am " + age
+print(txt)
+
+#F-strings
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+
+
+#Placeholders and Modifiers
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+price = 49
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+#Will display the price with 2 decimal
+
+#Can perform operations inside the placeholders
+txt = f"The price is {20 * 59} dollars"
